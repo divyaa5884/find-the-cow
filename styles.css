@@ -1,0 +1,10 @@
+body{
+	background-color:gray;
+}
+#cow_img  {
+	cursor:pointer;
+}
+#cowim {
+	height:150px;
+	width:150px;
+}
