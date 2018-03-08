@@ -39,6 +39,9 @@ document.addEventListener('mousemove',function(evt) {
 	}
 });
 
+// pageX/Y coordinates are relative to the top left corner of the whole rendered page (including parts hidden by scrolling),
+
+//while clientX/Y coordinates are relative to the top left corner of the visible part of the page, "seen" through browser window.
 
 function getMousePos(evt) {
 	return {
